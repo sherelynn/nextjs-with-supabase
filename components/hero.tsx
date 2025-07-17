@@ -1,5 +1,5 @@
-import { NextLogo } from "./next-logo";
-import { SupabaseLogo } from "./supabase-logo";
+import { NextLogo } from "./next-logo"
+import { SupabaseLogo } from "./supabase-logo"
 
 export function Hero() {
   return (
@@ -8,8 +8,7 @@ export function Hero() {
         <a
           href="https://supabase.com/?utm_source=create-next-app&utm_medium=template&utm_term=nextjs"
           target="_blank"
-          rel="noreferrer"
-        >
+          rel="noreferrer">
           <SupabaseLogo />
         </a>
         <span className="border-l rotate-45 h-6" />
@@ -17,15 +16,16 @@ export function Hero() {
           <NextLogo />
         </a>
       </div>
-      <h1 className="sr-only">Supabase and Next.js Starter Template</h1>
-      <p className="text-3xl lg:text-4xl !leading-tight mx-auto max-w-xl text-center">
-        The fastest way to build apps with{" "}
+      <h1 className="text-5xl font-extrabold text-transparent md:text-6xl bg-clip-text bg-gradient-to-r from-pink-500 to-violet-500">
+        Welcome to My App
+      </h1>
+      <p className="text-xl lg:text-2xl !leading-tight mx-auto max-w-xl text-center">
+        Built with{" "}
         <a
           href="https://supabase.com/?utm_source=create-next-app&utm_medium=template&utm_term=nextjs"
           target="_blank"
-          className="font-bold hover:underline"
-          rel="noreferrer"
-        >
+          className="font-bold text-green-500 hover:underline"
+          rel="noreferrer">
           Supabase
         </a>{" "}
         and{" "}
@@ -33,12 +33,11 @@ export function Hero() {
           href="https://nextjs.org/"
           target="_blank"
           className="font-bold hover:underline"
-          rel="noreferrer"
-        >
+          rel="noreferrer">
           Next.js
         </a>
       </p>
       <div className="w-full p-[1px] bg-gradient-to-r from-transparent via-foreground/10 to-transparent my-8" />
     </div>
-  );
+  )
 }
